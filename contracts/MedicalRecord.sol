@@ -1,7 +1,7 @@
 //SPDX-License-Identifier:MIT
 pragma solidity ^0.8.0;
 
-contract MedicalRecords {
+contract MedicalRecord {
     uint public recordId;
     mapping(uint => Record) records;
     mapping(uint => bool) public isDeleted;
